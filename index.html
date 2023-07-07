@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+     <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="result" readOnly />
+        <div class="buttons">
+            <button onclick="clearResult()" class="orange-btn">C</button>
+            <button onclick="deleteLast()" class="orange-btn">DEL</button>
+            <button onclick="appendToResult" class="button">9</button>
+            <button onclick="appendToResult" class="button">8</button>
+            <button onclick="appendToResult" class="button">7</button>
+            <button onclick="appendToResult" class="button">/</button>
+            <button onclick="appendToResult" class="button">*</button>
+            <button onclick="appendToResult" class="button">6</button>
+            <button onclick="appendToResult" class="button">5</button>
+            <button onclick="appendToResult" class="button">4</button>
+            <button onclick="appendToResult" class="button">-</button>
+            <button onclick="appendToResult" class="button">+</button>
+            <button onclick="appendToResult" class="button">3</button>
+            <button onclick="appendToResult" class="button">2</button>
+            <button onclick="appendToResult" class="button">1</button>
+            <button onclick="calculateResult()" class="orange-btn">=</button>
+            <button onclick="appendToResult" class="button">.</button>
+            <button onclick="appendToResult" class="button">0</button>
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
